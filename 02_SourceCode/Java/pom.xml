@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.heigit.bigspatialdata</groupId>
+  <artifactId>Java</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <parent>
+    <groupId>org.heigit.bigspatialdata</groupId>
+    <artifactId>bigspatialdata-parent</artifactId>
+    <version>1.0</version>
+  </parent>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.heigit.bigspatialdata</groupId>
+      <artifactId>oshdb-api</artifactId>
+      <version>0.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.27.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openstreetmap.josm</groupId>
+      <artifactId>josm</artifactId>
+      <version>15155</version>
+    </dependency>
+    <dependency>
+      <groupId>org.wololo</groupId>
+      <artifactId>jts2geojson</artifactId>
+      <version>0.13.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-csv</artifactId>
+      <version>1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.geotools</groupId>
+      <artifactId>gt-referencing</artifactId>
+      <version>21.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.geotools</groupId>
+      <artifactId>gt-epsg-hsql</artifactId>
+      <version>21.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.geotools</groupId>
+      <artifactId>gt-main</artifactId>
+      <version>21.2</version>
+    </dependency>
+  </dependencies>
+  
+  <repositories>
+    <repository>
+      <id>HeiGIT main</id>
+      <name>Central Repository for OSHDB dependency related artefacts</name>
+      <url>http://repo.heigit.org/artifactory/main</url>
+    </repository>
+  </repositories>
+    <name>Java</name>
+</project>
