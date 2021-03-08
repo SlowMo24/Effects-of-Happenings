@@ -12,7 +12,7 @@ M. Schott, A. Y. Grinberger, S. Lautenbach and A. Zipf
  - Mapper Data
     - The mapper data potentially contains personal information. It is therefore available on request from the authors only.
     
-For the orignial Processing all this data was combined in a SQLITE-Database.
+For the orignial Processing all this data was combined in a SQLITE-Database. This database also contains the raw data for each mapper. As this may contain personal information it is only available on request from the author.
 
 ### 02-SourceCode
 The directory contains the different scripts used to calculate the analysed metrics divided by tool used.
